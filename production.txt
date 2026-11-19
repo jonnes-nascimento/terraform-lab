@@ -1,0 +1,3 @@
+Project: Terraform Modular Lab
+Environment: production
+Message: Production environment generated!

@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"development","Source":"./modules/file_generator","Dir":"modules/file_generator"},{"Key":"production","Source":"./modules/file_generator","Dir":"modules/file_generator"},{"Key":"testing","Source":"./modules/file_generator","Dir":"modules/file_generator"}]}
