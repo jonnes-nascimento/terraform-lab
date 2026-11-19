@@ -1,0 +1,74 @@
+
+# ==========================================
+# Terraform - State files
+# ==========================================
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# ==========================================
+# Terraform - Variable files
+# ==========================================
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# ==========================================
+# Terraform - Credentials and secrets
+# ==========================================
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.secret
+*.credentials
+
+# ==========================================
+# Terraform - Local configuration
+# ==========================================
+.terraform/
+#.terraform.lock.hcl
+
+# ==========================================
+# Terraform - Crash logs
+# ==========================================
+crash.log
+crash.*.log
+
+# ==========================================
+# Terraform - Override files
+# ==========================================
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ==========================================
+# Terraform - CLI configuration
+# ==========================================
+.terraformrc
+terraform.rc
+
+# ==========================================
+# Terraform - Plan files
+# ==========================================
+*.tfplan
+*.plan
+
+# ==========================================
+# Environment variables
+# ==========================================
+.env
+.env.*
+*.env
+
+# ==========================================
+# Editor and OS files
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
