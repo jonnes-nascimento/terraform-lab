@@ -1,0 +1,6 @@
+sudo apt update
+sudo apt install graphviz
+
+terraform graph | dot -Tpng -o dependency-graph.png
+
+code dependency-graph.png
